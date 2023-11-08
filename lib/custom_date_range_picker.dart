@@ -131,7 +131,7 @@ class CustomDateRangePickerState extends State<CustomDateRangePicker>
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: <Widget>[
                                 Text(
-                                  'From',
+                                  'От',
                                   textAlign: TextAlign.left,
                                   style: TextStyle(
                                     fontWeight: FontWeight.w400,
@@ -167,7 +167,7 @@ class CustomDateRangePickerState extends State<CustomDateRangePicker>
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: <Widget>[
                                 Text(
-                                  'To',
+                                  'До',
                                   style: TextStyle(
                                     fontWeight: FontWeight.w400,
                                     fontSize: 16,
@@ -243,7 +243,7 @@ class CustomDateRangePickerState extends State<CustomDateRangePicker>
                                   },
                                   child: const Center(
                                     child: Text(
-                                      'Cancel',
+                                      'Отмена',
                                       style: TextStyle(
                                         fontWeight: FontWeight.w500,
                                         fontSize: 18,
@@ -283,7 +283,7 @@ class CustomDateRangePickerState extends State<CustomDateRangePicker>
                                   },
                                   child: const Center(
                                     child: Text(
-                                      'Apply',
+                                      'Принять',
                                       style: TextStyle(
                                         fontWeight: FontWeight.w500,
                                         fontSize: 18,

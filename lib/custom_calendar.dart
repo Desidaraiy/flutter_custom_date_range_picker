@@ -133,7 +133,7 @@ class CustomCalendarState extends State<CustomCalendar> {
               Expanded(
                 child: Center(
                   child: Text(
-                    DateFormat('MMMM, yyyy').format(currentMonthDate),
+                    DateFormat('MMM, yyyy').format(currentMonthDate),
                     style: TextStyle(
                       fontWeight: FontWeight.w500,
                       fontSize: 20,
